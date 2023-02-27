@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #E4FF3F;
+  text-align: left;
+  background-color: #080808;
+}
+
+.AppHeader {
+  font-weight: bold;
+  height: 90px;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #E4FF3F;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.AppBody {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: #E4FF3F;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.giantWords{
+  font-size: 100px;  
+}
+
+.bigWords{
+  font-size: 60px;  
+  text-align: center;
+}
+
+.smallWords{
+  display: block;
+  margin: 2rem 10rem 2rem 10rem;
+  text-align: justify ;
+  color: #FFFFFF;
+  justify-content: center;
+  font-size: 30px; 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  font-size: 25px;
+  font-weight: bold;
+  color: #E4FF3F;
+  background: #080808;
+  border:none;
+  border-bottom:1px solid #E4FF3F ;
+  text-align: right;
+}
+
+.blanco{
+  color: white;
+}
+
+.formField {
+  margin: 10px 0 10px 0;
+  min-width: 500px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1;
+  font-family: "Titillium Web", sans-serif;
+}
+.formButton {
+  border: 1px solid;
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 60px;  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnside {
+  text-align: left;
+  width: 35%;
+  float: left;
+  padding: 0 0px 10px 40px;
+  word-wrap: break-word;
+}
+
+.columnmiddle {
+  text-align: center;
+  width: 55%;
+  float: left;
+  padding:  10px;
+  word-wrap: break-word;
+}
+
+.table{
+  text-align: center;
+  width: 100%;
+}
+
+.table.th{
+  text-align: center;
+  width: 100%;  
+}
+
+.table.thead{
+  text-align: center;
+  width: 100%;  
+}
+
+.nigblock{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  opacity: 80%;
+  color: #FFFFFF;
+  border:3px solid #E4FF3F ;
+}
+
+.button{
+  border: 1px solid;
+  margin: 0 0 2rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 35px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: black;
+  color: #E4FF3F;  
+}
+
+
